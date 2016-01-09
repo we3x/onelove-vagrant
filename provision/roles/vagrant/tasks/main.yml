@@ -47,3 +47,7 @@
   command: bash /tmp/npm-install.sh
   args:
     creates: /usr/bin/npm
+
+- name: install node modules
+  npm:
+    path: /vagrant/projects/frontend/
